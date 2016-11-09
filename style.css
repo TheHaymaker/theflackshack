@@ -31,19 +31,19 @@ body {
       -ms-transform: scale(1);
        -o-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-     -moz-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-      -ms-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-       -o-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-          transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
+  -webkit-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+     -moz-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+      -ms-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+       -o-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+          transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
 }
 
 .circle:hover {
-  -webkit-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-     -moz-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-      -ms-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-       -o-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-          transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
+  -webkit-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+     -moz-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+      -ms-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+       -o-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+          transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
 }
 
 .circle.active {
@@ -53,11 +53,11 @@ body {
        -o-transform: scale(50);
           transform: scale(50);
           z-index: 10;
-  -webkit-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-     -moz-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-      -ms-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-       -o-transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
-          transition: all 1.5s cubic-bezier(0.96,-0.02, 0, 1.02);
+  -webkit-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+     -moz-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+      -ms-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+       -o-transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
+          transition: all 1s cubic-bezier(0.96,-0.02, 0, 1.02);
   // opacity: 0.6;
 
 }
