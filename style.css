@@ -42,7 +42,7 @@ body {
 
 .circle.active {
   -webkit-transform: scale(50);
-     -moz-transform: scale(50);
+     -moz-transform: scale(50) rotate(0.02deg);
       -ms-transform: scale(50);
        -o-transform: scale(50);
           transform: scale(50);
@@ -83,8 +83,8 @@ body {
   // top: calc(50% - 37px);
   // left: 10%;
   position: absolute;
-  box-shadow: 0px 0px 10px 1px black;
-  border-radius: 100%;
+  // box-shadow: 0px 0px 10px 1px black;
+  border-radius: 75px;
   box-sizing: border-box;
 }
 
@@ -103,8 +103,8 @@ body {
   // top: calc(50% - 60px);
   // left: 20%;
   position: absolute;
-  box-shadow: 0px 0px 10px 1px black;
-  border-radius: 100%;
+  // box-shadow: 0px 0px 10px 1px black;
+  border-radius: 110px;
 }
 
 .circle-lrg:after {
@@ -123,12 +123,12 @@ body {
   // top: calc(50% - 125px);
   // right: 15%;
   position: absolute;
-  box-shadow: 0px 0px 10px 1px black;
-  border-radius: 100%;
+  // box-shadow: 0px 0px 10px 1px black;
+  border-radius: 250px;
 }
 
-
-.circle-lrg:hover:after, .circle-small:hover:after, .circle-medium:hover:after {
+.circle-lrg:hover:after {
+  background-color: rgba(0, 0, 0, 0.3);
   opacity: 1;
   -webkit-transition: all 0.5s ease-in-out;
      -moz-transition: all 0.5s ease-in-out;
@@ -137,16 +137,24 @@ body {
           transition: all 0.5s ease-in-out;
 }
 
-.circle-lrg:hover:after {
-  background-color: rgba(0, 0, 0, 0.3);
-}
-
 .circle-small:hover:after {
   background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
 }
 
 .circle-medium:hover:after {
   background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
 }
 
 
